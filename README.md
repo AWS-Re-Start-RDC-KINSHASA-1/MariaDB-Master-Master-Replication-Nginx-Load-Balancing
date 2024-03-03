@@ -55,7 +55,7 @@ On both instances:
      ```sql
      CHANGE MASTER TO
         MASTER_HOST='second_instance_ip',
-        MASTER_USER='repl',
+        MASTER_USER='replication_user',
         MASTER_PASSWORD='your_password',
         MASTER_LOG_FILE='second_master_log_file',
         MASTER_LOG_POS=second_master_log_pos;
@@ -64,7 +64,7 @@ On both instances:
      ```sql
      CHANGE MASTER TO
         MASTER_HOST='first_instance_ip',
-        MASTER_USER='repl',
+        MASTER_USER='replication_user',
         MASTER_PASSWORD='your_password',
         MASTER_LOG_FILE='first_master_log_file',
         MASTER_LOG_POS=first_master_log_pos;
