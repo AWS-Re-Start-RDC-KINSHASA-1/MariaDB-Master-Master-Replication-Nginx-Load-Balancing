@@ -123,7 +123,7 @@ FLUSH PRIVILEGES;
          }
      }
      ```
-     Replace `<EC2_Instance_1_IP>`, `<EC2_Instance_2_IP>`, `<Port>`, and `your_domain.com` with your actual instance details.
+     Replace `<EC2_Instance_1_IP>`, `<EC2_Instance_2_IP>` and `<Port>` with your actual instance details.
 
 3. **Test the Configuration:**
    - Check configuration syntax
