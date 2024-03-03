@@ -112,7 +112,6 @@ FLUSH PRIVILEGES;
 
          server {
              listen 3306;
-             server_name your_domain.com;
 
              location / {
                  proxy_pass http://backend;
